@@ -1,5 +1,15 @@
-export default function Home() {
+"use client";
+
+import BasketballCourt from "./components/BasketballCourt";
+
+const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="">
+      <div className="container text-center">
+        <BasketballCourt />
+      </div>
+    </main>
   );
-}
+};
+
+export default Home;
