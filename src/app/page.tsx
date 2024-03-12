@@ -1,9 +1,11 @@
-"use client";
+import ProfileImage from "./components/ProfileImage";
 
 const Home = () => {
   return (
     <main className="">
-      <div className="container text-center"></div>
+      <div className="container text-center">
+        <ProfileImage />
+      </div>
     </main>
   );
 };
