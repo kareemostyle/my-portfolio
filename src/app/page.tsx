@@ -1,10 +1,11 @@
 import ProfileImage from "./components/ProfileImage";
+import Navbar from "./components/Navbar";
 
 const Home = () => {
   return (
     <main className="">
-      <div className="container text-center">
-        <ProfileImage />
+      <div className="">
+        <Navbar />
       </div>
     </main>
   );
